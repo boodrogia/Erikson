@@ -22,6 +22,14 @@ public class EricsMap {
 	public int getMaxTick() {
 		return 1000 + (serialNumber % 500) * 10;
 	}
+
+	public int[][] getMap() {
+		return map;
+	}
+
+	public void setMap(int[][] map) {
+		this.map = map;
+	}
 	
 	
 }
